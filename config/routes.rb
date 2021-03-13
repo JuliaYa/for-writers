@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  devise_for :users
+  
 
-  root to: 'application#hello'
+  root to: 'application#landing'
+
+  namespace :app do
+    devise_for :users
+
+    resource :dashboard, only: [:show], controller: 'dashboard'
+  end
 end
