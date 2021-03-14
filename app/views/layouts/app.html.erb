@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Penplay</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_pack_tag 'app', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body class="main">
+    <%= render partial: 'app/shared/header' %>
+    <%= render partial: 'app/shared/side_menu' %>
+
+
+    <div class="pt-16 md:pl-16">
+      <%= yield %>
+    </div>
+
+    <%= javascript_pack_tag 'app', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>

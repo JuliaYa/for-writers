@@ -2,15 +2,23 @@
   "name": "for-writers",
   "private": true,
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.2",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9",
+    "cash-dom": "^8.1.0",
+    "dayjs": "^1.10.4",
+    "feather-icons": "^4.28.0",
     "postcss": "^7",
+    "sass": "^1.32.8",
+    "tail.select": "^0.5.15",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "turbolinks": "^5.2.0"
+    "tippy.js": "^6.2.7",
+    "turbolinks": "^5.2.0",
+    "velocity-animate": "^1.5.2"
   },
   "version": "0.1.0",
   "devDependencies": {

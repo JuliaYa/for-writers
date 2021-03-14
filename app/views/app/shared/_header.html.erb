@@ -1,0 +1,14 @@
+<div class="fixed top-0 left-0 w-full h-16 top-bar">
+  <div class="flex w-full h-full px-5 bg-white border-b -intro-y top-bar__content border-theme-3 dark:bg-dark-2 dark:border-dark-2">
+    <%= render partial: 'app/shared/logo' %>
+
+    <a class="flex items-center h-full px-5 mr-auto -ml-5 mobile-menu-toggler md:hidden" href="javascript:;"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 feather feather-bar-chart-2 transform rotate-90"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> </a>
+
+    <div class="flex items-center h-full">
+      <div class="mr-3">Dark Mode</div>
+      <input class="form-check-switch" type="checkbox" id="dark-mode-switcher">
+    </div>
+    <%= render partial: 'app/shared/notifications' %>
+    <%= render partial: 'app/shared/account' %>
+  </div>
+</div>
